@@ -1,5 +1,7 @@
 # shotplanner
 
+[![Tests](https://github.com/SurrealByDesign/Ideogram-4-modular-shotlist-generator/actions/workflows/tests.yml/badge.svg)](https://github.com/SurrealByDesign/Ideogram-4-modular-shotlist-generator/actions/workflows/tests.yml)
+
 `shotplanner` is a small Python command-line tool for generating modular Ideogram 4-style shotlist records.
 
 Current version: `1.0.0`.
@@ -37,6 +39,12 @@ python -m shotplanner stats outputs/quickstart_plan/records.json
 ```
 
 The build writes a compact example plan to `outputs/quickstart_plan/`, which is ignored by Git. For your own work, use another ignored output folder such as `outputs/my_character_plan`.
+
+If you just want prompt text files from that plan:
+
+```powershell
+python -m shotplanner export-prompts outputs/quickstart_plan/records.json --out outputs/quickstart_prompts --include-negative
+```
 
 ## Testing
 

@@ -12,6 +12,9 @@ Changed:
 - Added `RELEASE_NOTES_1.0.0.md` as a GitHub release note draft.
 - Added GitHub issue and pull request templates.
 - Added `SECURITY.md` with local-data reporting guidance.
+- Added GitHub Actions test workflow for Python 3.10, 3.11, and 3.12.
+- Added `.gitattributes` to keep text file line endings predictable.
+- Changed package maturity classifier from Production/Stable to Beta for the first public release.
 - Added `examples/stable_cli_workflow/` as an end-to-end command workflow from build through QA, revision, subset copying, and prompt export.
 - Trimmed checked-in example artifacts to keep release fixtures compact and reproducible.
 - Renamed optional structured handoff output to `downstream_handoff.json`.
