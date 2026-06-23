@@ -14,8 +14,8 @@ class PresetTests(unittest.TestCase):
 
     def test_default_output_dir(self):
         self.assertEqual(
-            default_output_dir("Orc Mechanic Woman!", "character_lora"),
-            "outputs\\orc_mechanic_woman_character_lora",
+            Path(default_output_dir("Orc Mechanic Woman!", "character_lora")).as_posix(),
+            "outputs/orc_mechanic_woman_character_lora",
         )
 
     def test_preset_fills_defaults(self):
