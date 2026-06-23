@@ -1,0 +1,173 @@
+{
+  "source_count": 15,
+  "exported_count": 15,
+  "include_negative": true,
+  "filters": {},
+  "records": [
+    {
+      "index": 0,
+      "id": "core-character_lora_core-0001",
+      "prompt_file": "examples\\stable_cli_workflow\\generated\\prompt_export\\prompts\\0000_core-character_lora_core-0001.txt",
+      "shot_type": "portrait",
+      "angle": "front_view",
+      "pack": "core",
+      "mode": "character_lora_core",
+      "template": "centered_portrait",
+      "negative_file": "examples\\stable_cli_workflow\\generated\\prompt_export\\negative_prompts\\0000_core-character_lora_core-0001.txt"
+    },
+    {
+      "index": 1,
+      "id": "core-character_lora_core-0002",
+      "prompt_file": "examples\\stable_cli_workflow\\generated\\prompt_export\\prompts\\0001_core-character_lora_core-0002.txt",
+      "shot_type": "full_body",
+      "angle": "front_view",
+      "pack": "core",
+      "mode": "character_lora_core",
+      "template": "centered_full_body",
+      "negative_file": "examples\\stable_cli_workflow\\generated\\prompt_export\\negative_prompts\\0001_core-character_lora_core-0002.txt"
+    },
+    {
+      "index": 2,
+      "id": "core-character_lora_core-0003",
+      "prompt_file": "examples\\stable_cli_workflow\\generated\\prompt_export\\prompts\\0002_core-character_lora_core-0003.txt",
+      "shot_type": "three_quarter",
+      "angle": "three_quarter_front",
+      "pack": "core",
+      "mode": "character_lora_core",
+      "template": "centered_full_body",
+      "negative_file": "examples\\stable_cli_workflow\\generated\\prompt_export\\negative_prompts\\0002_core-character_lora_core-0003.txt"
+    },
+    {
+      "index": 3,
+      "id": "turnaround-character_lora_turnaround-0001",
+      "prompt_file": "examples\\stable_cli_workflow\\generated\\prompt_export\\prompts\\0003_turnaround-character_lora_turnaround-0001.txt",
+      "shot_type": "front_view",
+      "angle": "front_view",
+      "pack": "turnaround",
+      "mode": "character_lora_turnaround",
+      "template": "centered_full_body",
+      "negative_file": "examples\\stable_cli_workflow\\generated\\prompt_export\\negative_prompts\\0003_turnaround-character_lora_turnaround-0001.txt"
+    },
+    {
+      "index": 4,
+      "id": "turnaround-character_lora_turnaround-0002",
+      "prompt_file": "examples\\stable_cli_workflow\\generated\\prompt_export\\prompts\\0004_turnaround-character_lora_turnaround-0002.txt",
+      "shot_type": "left_side_view",
+      "angle": "left_side_view",
+      "pack": "turnaround",
+      "mode": "character_lora_turnaround",
+      "template": "centered_full_body",
+      "negative_file": "examples\\stable_cli_workflow\\generated\\prompt_export\\negative_prompts\\0004_turnaround-character_lora_turnaround-0002.txt"
+    },
+    {
+      "index": 5,
+      "id": "turnaround-character_lora_turnaround-0003",
+      "prompt_file": "examples\\stable_cli_workflow\\generated\\prompt_export\\prompts\\0005_turnaround-character_lora_turnaround-0003.txt",
+      "shot_type": "right_side_view",
+      "angle": "right_side_view",
+      "pack": "turnaround",
+      "mode": "character_lora_turnaround",
+      "template": "centered_full_body",
+      "negative_file": "examples\\stable_cli_workflow\\generated\\prompt_export\\negative_prompts\\0005_turnaround-character_lora_turnaround-0003.txt"
+    },
+    {
+      "index": 6,
+      "id": "expressions-character_lora_expressions-0001",
+      "prompt_file": "examples\\stable_cli_workflow\\generated\\prompt_export\\prompts\\0006_expressions-character_lora_expressions-0001.txt",
+      "shot_type": "portrait",
+      "angle": "front_view",
+      "pack": "expressions",
+      "mode": "character_lora_expressions",
+      "template": "centered_portrait",
+      "negative_file": "examples\\stable_cli_workflow\\generated\\prompt_export\\negative_prompts\\0006_expressions-character_lora_expressions-0001.txt"
+    },
+    {
+      "index": 7,
+      "id": "expressions-character_lora_expressions-0002",
+      "prompt_file": "examples\\stable_cli_workflow\\generated\\prompt_export\\prompts\\0007_expressions-character_lora_expressions-0002.txt",
+      "shot_type": "expression",
+      "angle": "varied_expressions",
+      "pack": "expressions",
+      "mode": "character_lora_expressions",
+      "template": "expression_strip",
+      "negative_file": "examples\\stable_cli_workflow\\generated\\prompt_export\\negative_prompts\\0007_expressions-character_lora_expressions-0002.txt"
+    },
+    {
+      "index": 8,
+      "id": "expressions-character_lora_expressions-0003",
+      "prompt_file": "examples\\stable_cli_workflow\\generated\\prompt_export\\prompts\\0008_expressions-character_lora_expressions-0003.txt",
+      "shot_type": "expression_smile",
+      "angle": "soft_smile",
+      "pack": "expressions",
+      "mode": "character_lora_expressions",
+      "template": "centered_portrait",
+      "negative_file": "examples\\stable_cli_workflow\\generated\\prompt_export\\negative_prompts\\0008_expressions-character_lora_expressions-0003.txt"
+    },
+    {
+      "index": 9,
+      "id": "costume_details-character_lora_costume_details-0001",
+      "prompt_file": "examples\\stable_cli_workflow\\generated\\prompt_export\\prompts\\0009_costume_details-character_lora_costume_details-0001.txt",
+      "shot_type": "costume_detail",
+      "angle": "detail_closeups",
+      "pack": "costume_details",
+      "mode": "character_lora_costume_details",
+      "template": "costume_layer_detail_grid",
+      "negative_file": "examples\\stable_cli_workflow\\generated\\prompt_export\\negative_prompts\\0009_costume_details-character_lora_costume_details-0001.txt"
+    },
+    {
+      "index": 10,
+      "id": "costume_details-character_lora_costume_details-0002",
+      "prompt_file": "examples\\stable_cli_workflow\\generated\\prompt_export\\prompts\\0010_costume_details-character_lora_costume_details-0002.txt",
+      "shot_type": "accessory_detail",
+      "angle": "macro_details",
+      "pack": "costume_details",
+      "mode": "character_lora_costume_details",
+      "template": "accessory_callout_sheet",
+      "negative_file": "examples\\stable_cli_workflow\\generated\\prompt_export\\negative_prompts\\0010_costume_details-character_lora_costume_details-0002.txt"
+    },
+    {
+      "index": 11,
+      "id": "action-character_lora_action-0001",
+      "prompt_file": "examples\\stable_cli_workflow\\generated\\prompt_export\\prompts\\0011_action-character_lora_action-0001.txt",
+      "shot_type": "action_pose",
+      "angle": "dynamic_three_quarter",
+      "pack": "action",
+      "mode": "character_lora_action",
+      "template": "wide_environment",
+      "negative_file": "examples\\stable_cli_workflow\\generated\\prompt_export\\negative_prompts\\0011_action-character_lora_action-0001.txt"
+    },
+    {
+      "index": 12,
+      "id": "action-character_lora_action-0002",
+      "prompt_file": "examples\\stable_cli_workflow\\generated\\prompt_export\\prompts\\0012_action-character_lora_action-0002.txt",
+      "shot_type": "walking_pose",
+      "angle": "dynamic_front",
+      "pack": "action",
+      "mode": "character_lora_action",
+      "template": "centered_full_body",
+      "negative_file": "examples\\stable_cli_workflow\\generated\\prompt_export\\negative_prompts\\0012_action-character_lora_action-0002.txt"
+    },
+    {
+      "index": 13,
+      "id": "environment-character_lora_environment-0001",
+      "prompt_file": "examples\\stable_cli_workflow\\generated\\prompt_export\\prompts\\0013_environment-character_lora_environment-0001.txt",
+      "shot_type": "environment",
+      "angle": "wide_context",
+      "pack": "environment",
+      "mode": "character_lora_environment",
+      "template": "wide_environment",
+      "negative_file": "examples\\stable_cli_workflow\\generated\\prompt_export\\negative_prompts\\0013_environment-character_lora_environment-0001.txt"
+    },
+    {
+      "index": 14,
+      "id": "environment-character_lora_environment-0002",
+      "prompt_file": "examples\\stable_cli_workflow\\generated\\prompt_export\\prompts\\0014_environment-character_lora_environment-0002.txt",
+      "shot_type": "workshop_context",
+      "angle": "wide_context",
+      "pack": "environment",
+      "mode": "character_lora_environment",
+      "template": "wide_environment",
+      "negative_file": "examples\\stable_cli_workflow\\generated\\prompt_export\\negative_prompts\\0014_environment-character_lora_environment-0002.txt"
+    }
+  ]
+}

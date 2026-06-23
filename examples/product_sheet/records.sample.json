@@ -1,0 +1,317 @@
+[
+  {
+    "id": "product_sheet-0001",
+    "subject": "brass clockwork resin miniature kit with removable wings",
+    "mode": "product_sheet",
+    "shot_type": "centered_product",
+    "angle": "front_view",
+    "aspect_ratio": "1:1",
+    "prompt_text": "brass clockwork resin miniature kit with removable wings, centered product, front view, clean product concept sheet, studio lighting, readable materials. Guidance: stable product hero placement; ample margin around the product; controlled reflections; minimal catalog backdrop; prioritize product clarity over atmosphere; center the object with clean margins. Palette: product studio; #ffffff, #eef1f4, #c7ccd3, #4a5565, #111827; clean commercial studio palette; Use bright grounds, crisp edges, and controlled reflections. Layout: centered product on clean background.",
+    "negative_prompt": "low quality, blurry, cropped subject, broken anatomy, unreadable text, extra limbs, distorted layout, inconsistent identity, cluttered background",
+    "character_bible": {},
+    "style_description": {
+      "name": "clean product concept sheet, studio lighting, readable materials",
+      "source": "cli"
+    },
+    "bbox_layout": {
+      "name": "product_centered",
+      "aspect_ratio": "1:1",
+      "elements": [
+        {
+          "type": "obj",
+          "bbox": [
+            180,
+            180,
+            820,
+            820
+          ],
+          "desc": "centered product on clean background"
+        }
+      ]
+    },
+    "color_palette": {
+      "name": "product_studio",
+      "colors": [
+        "#ffffff",
+        "#eef1f4",
+        "#c7ccd3",
+        "#4a5565",
+        "#111827"
+      ],
+      "mood": "clean commercial studio palette",
+      "usage": "Use bright grounds, crisp edges, and controlled reflections.",
+      "source": "static_palette_catalog"
+    },
+    "ideogram_json": {
+      "prompt": "brass clockwork resin miniature kit with removable wings, centered product, front view, clean product concept sheet, studio lighting, readable materials. Guidance: stable product hero placement; ample margin around the product; controlled reflections; minimal catalog backdrop; prioritize product clarity over atmosphere; center the object with clean margins. Palette: product studio; #ffffff, #eef1f4, #c7ccd3, #4a5565, #111827; clean commercial studio palette; Use bright grounds, crisp edges, and controlled reflections. Layout: centered product on clean background.",
+      "negative_prompt": "low quality, blurry, cropped subject, broken anatomy, unreadable text, extra limbs, distorted layout, inconsistent identity, cluttered background",
+      "aspect_ratio": "1:1",
+      "layout": {
+        "name": "product_centered",
+        "aspect_ratio": "1:1",
+        "elements": [
+          {
+            "type": "obj",
+            "bbox": [
+              180,
+              180,
+              820,
+              820
+            ],
+            "desc": "centered product on clean background"
+          }
+        ]
+      },
+      "color_palette": {
+        "name": "product_studio",
+        "colors": [
+          "#ffffff",
+          "#eef1f4",
+          "#c7ccd3",
+          "#4a5565",
+          "#111827"
+        ],
+        "mood": "clean commercial studio palette",
+        "usage": "Use bright grounds, crisp edges, and controlled reflections.",
+        "source": "static_palette_catalog"
+      },
+      "character_bible": {},
+      "style": {
+        "name": "clean product concept sheet, studio lighting, readable materials",
+        "source": "cli"
+      },
+      "metadata": {
+        "id": "product_sheet-0001",
+        "mode": "product_sheet",
+        "shot_type": "centered_product",
+        "angle": "front_view"
+      }
+    },
+    "metadata": {
+      "sequence_index": 0,
+      "bbox_template": "product_centered",
+      "planner": "ShotlistPlanner",
+      "color_palette_source": "ColorPaletteAssigner",
+      "prompt_variation": {
+        "pose": "stable product hero placement",
+        "framing": "ample margin around the product",
+        "lighting": "controlled reflections",
+        "background": "minimal catalog backdrop",
+        "detail": "prioritize product clarity over atmosphere",
+        "shot_hint": "center the object with clean margins",
+        "source": "PromptVariationAssigner"
+      }
+    },
+    "extra": {}
+  },
+  {
+    "id": "product_sheet-0002",
+    "subject": "brass clockwork resin miniature kit with removable wings",
+    "mode": "product_sheet",
+    "shot_type": "front_view",
+    "angle": "front_view",
+    "aspect_ratio": "1:1",
+    "prompt_text": "brass clockwork resin miniature kit with removable wings, front view, front view, clean product concept sheet, studio lighting, readable materials. Guidance: upright centered display; centered ecommerce composition; bright catalog lighting; simple background with no clutter; emphasize materials, edges, and finish; show a direct front reference view. Palette: product studio; #ffffff, #eef1f4, #c7ccd3, #4a5565, #111827; clean commercial studio palette; Use bright grounds, crisp edges, and controlled reflections. Layout: centered product on clean background.",
+    "negative_prompt": "low quality, blurry, cropped subject, broken anatomy, unreadable text, extra limbs, distorted layout, inconsistent identity, cluttered background",
+    "character_bible": {},
+    "style_description": {
+      "name": "clean product concept sheet, studio lighting, readable materials",
+      "source": "cli"
+    },
+    "bbox_layout": {
+      "name": "product_centered",
+      "aspect_ratio": "1:1",
+      "elements": [
+        {
+          "type": "obj",
+          "bbox": [
+            180,
+            180,
+            820,
+            820
+          ],
+          "desc": "centered product on clean background"
+        }
+      ]
+    },
+    "color_palette": {
+      "name": "product_studio",
+      "colors": [
+        "#ffffff",
+        "#eef1f4",
+        "#c7ccd3",
+        "#4a5565",
+        "#111827"
+      ],
+      "mood": "clean commercial studio palette",
+      "usage": "Use bright grounds, crisp edges, and controlled reflections.",
+      "source": "static_palette_catalog"
+    },
+    "ideogram_json": {
+      "prompt": "brass clockwork resin miniature kit with removable wings, front view, front view, clean product concept sheet, studio lighting, readable materials. Guidance: upright centered display; centered ecommerce composition; bright catalog lighting; simple background with no clutter; emphasize materials, edges, and finish; show a direct front reference view. Palette: product studio; #ffffff, #eef1f4, #c7ccd3, #4a5565, #111827; clean commercial studio palette; Use bright grounds, crisp edges, and controlled reflections. Layout: centered product on clean background.",
+      "negative_prompt": "low quality, blurry, cropped subject, broken anatomy, unreadable text, extra limbs, distorted layout, inconsistent identity, cluttered background",
+      "aspect_ratio": "1:1",
+      "layout": {
+        "name": "product_centered",
+        "aspect_ratio": "1:1",
+        "elements": [
+          {
+            "type": "obj",
+            "bbox": [
+              180,
+              180,
+              820,
+              820
+            ],
+            "desc": "centered product on clean background"
+          }
+        ]
+      },
+      "color_palette": {
+        "name": "product_studio",
+        "colors": [
+          "#ffffff",
+          "#eef1f4",
+          "#c7ccd3",
+          "#4a5565",
+          "#111827"
+        ],
+        "mood": "clean commercial studio palette",
+        "usage": "Use bright grounds, crisp edges, and controlled reflections.",
+        "source": "static_palette_catalog"
+      },
+      "character_bible": {},
+      "style": {
+        "name": "clean product concept sheet, studio lighting, readable materials",
+        "source": "cli"
+      },
+      "metadata": {
+        "id": "product_sheet-0002",
+        "mode": "product_sheet",
+        "shot_type": "front_view",
+        "angle": "front_view"
+      }
+    },
+    "metadata": {
+      "sequence_index": 1,
+      "bbox_template": "product_centered",
+      "planner": "ShotlistPlanner",
+      "color_palette_source": "ColorPaletteAssigner",
+      "prompt_variation": {
+        "pose": "upright centered display",
+        "framing": "centered ecommerce composition",
+        "lighting": "bright catalog lighting",
+        "background": "simple background with no clutter",
+        "detail": "emphasize materials, edges, and finish",
+        "shot_hint": "show a direct front reference view",
+        "source": "PromptVariationAssigner"
+      }
+    },
+    "extra": {}
+  },
+  {
+    "id": "product_sheet-0003",
+    "subject": "brass clockwork resin miniature kit with removable wings",
+    "mode": "product_sheet",
+    "shot_type": "side_view",
+    "angle": "side_view",
+    "aspect_ratio": "1:1",
+    "prompt_text": "brass clockwork resin miniature kit with removable wings, side view, side view, clean product concept sheet, studio lighting, readable materials. Guidance: slight three-quarter product turn; detail-forward catalog crop; subtle shadow grounding the object; white product background; show scale and distinctive product features; show a clean side silhouette. Palette: product studio; #ffffff, #eef1f4, #c7ccd3, #4a5565, #111827; clean commercial studio palette; Use bright grounds, crisp edges, and controlled reflections. Layout: centered product on clean background.",
+    "negative_prompt": "low quality, blurry, cropped subject, broken anatomy, unreadable text, extra limbs, distorted layout, inconsistent identity, cluttered background",
+    "character_bible": {},
+    "style_description": {
+      "name": "clean product concept sheet, studio lighting, readable materials",
+      "source": "cli"
+    },
+    "bbox_layout": {
+      "name": "product_centered",
+      "aspect_ratio": "1:1",
+      "elements": [
+        {
+          "type": "obj",
+          "bbox": [
+            180,
+            180,
+            820,
+            820
+          ],
+          "desc": "centered product on clean background"
+        }
+      ]
+    },
+    "color_palette": {
+      "name": "product_studio",
+      "colors": [
+        "#ffffff",
+        "#eef1f4",
+        "#c7ccd3",
+        "#4a5565",
+        "#111827"
+      ],
+      "mood": "clean commercial studio palette",
+      "usage": "Use bright grounds, crisp edges, and controlled reflections.",
+      "source": "static_palette_catalog"
+    },
+    "ideogram_json": {
+      "prompt": "brass clockwork resin miniature kit with removable wings, side view, side view, clean product concept sheet, studio lighting, readable materials. Guidance: slight three-quarter product turn; detail-forward catalog crop; subtle shadow grounding the object; white product background; show scale and distinctive product features; show a clean side silhouette. Palette: product studio; #ffffff, #eef1f4, #c7ccd3, #4a5565, #111827; clean commercial studio palette; Use bright grounds, crisp edges, and controlled reflections. Layout: centered product on clean background.",
+      "negative_prompt": "low quality, blurry, cropped subject, broken anatomy, unreadable text, extra limbs, distorted layout, inconsistent identity, cluttered background",
+      "aspect_ratio": "1:1",
+      "layout": {
+        "name": "product_centered",
+        "aspect_ratio": "1:1",
+        "elements": [
+          {
+            "type": "obj",
+            "bbox": [
+              180,
+              180,
+              820,
+              820
+            ],
+            "desc": "centered product on clean background"
+          }
+        ]
+      },
+      "color_palette": {
+        "name": "product_studio",
+        "colors": [
+          "#ffffff",
+          "#eef1f4",
+          "#c7ccd3",
+          "#4a5565",
+          "#111827"
+        ],
+        "mood": "clean commercial studio palette",
+        "usage": "Use bright grounds, crisp edges, and controlled reflections.",
+        "source": "static_palette_catalog"
+      },
+      "character_bible": {},
+      "style": {
+        "name": "clean product concept sheet, studio lighting, readable materials",
+        "source": "cli"
+      },
+      "metadata": {
+        "id": "product_sheet-0003",
+        "mode": "product_sheet",
+        "shot_type": "side_view",
+        "angle": "side_view"
+      }
+    },
+    "metadata": {
+      "sequence_index": 2,
+      "bbox_template": "product_centered",
+      "planner": "ShotlistPlanner",
+      "color_palette_source": "ColorPaletteAssigner",
+      "prompt_variation": {
+        "pose": "slight three-quarter product turn",
+        "framing": "detail-forward catalog crop",
+        "lighting": "subtle shadow grounding the object",
+        "background": "white product background",
+        "detail": "show scale and distinctive product features",
+        "shot_hint": "show a clean side silhouette",
+        "source": "PromptVariationAssigner"
+      }
+    },
+    "extra": {}
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "source_count": 15,
+  "filtered_count": 15,
+  "revision_count": 1,
+  "filters": {},
+  "records": [
+    {
+      "index": 7,
+      "id": "expressions-character_lora_expressions-0002",
+      "pack": "expressions",
+      "mode": "character_lora_expressions",
+      "shot_type": "expression",
+      "angle": "varied_expressions",
+      "review_status": "unreviewed",
+      "selected": false,
+      "needs_regen": false,
+      "review_notes": "",
+      "qa_count": 1,
+      "qa_codes": [
+        "repeated_prompt_words"
+      ],
+      "qa_findings": [
+        {
+          "index": 7,
+          "id": "expressions-character_lora_expressions-0002",
+          "pack": "expressions",
+          "mode": "character_lora_expressions",
+          "shot_type": "expression",
+          "severity": "info",
+          "code": "repeated_prompt_words",
+          "message": "Prompt repeats words often: expression=7, portrait=6."
+        }
+      ],
+      "reasons": [
+        "qa:repeated_prompt_words"
+      ],
+      "prompt_text": "clockwork ranger with copper mask, green cloak, brass compass, expression, varied expressions, consistent character facial expression study, clean portrait reference, clean reference lighting, readable silhouette, minimal stylization. Identity anchor: same clockwork ranger in every shot; face: copper mask with narrow glass lenses; hair: dark hair tucked under hood; outfit: green travel cloak, leather chest harness, brass compass; accessories: brass compass, small map case; must keep: copper mask, green cloak, brass compass; avoid: different mask, missing compass, modern clothing. Guidance: relaxed natural posture; center-weighted composition; balanced front lighting; clean reference-sheet backdrop; preserve distinctive costume shapes and materials; show multiple clear expressions with consistent identity. Palette guidance: character reference; neutral reference colors with a few material accents; Keep identity, materials, and silhouette readable across the set. Layout: neutral expression portrait; smile expression portrait; serious expression portrait; surprised expression portrait; angry expression portrait.",
+      "negative_prompt": "low quality, blurry, cropped subject, broken anatomy, unreadable text, extra limbs, distorted layout, inconsistent identity, cluttered background, different mask, missing compass, modern clothing, heavy atmosphere, busy background, extreme lens distortion"
+    }
+  ]
+}

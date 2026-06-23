@@ -1,0 +1,425 @@
+[
+  {
+    "id": "character_lora_expressions-0001",
+    "subject": "orc mechanic woman with red braid, brass goggles, patched leather coat",
+    "mode": "character_lora_expressions",
+    "shot_type": "portrait",
+    "angle": "front_view",
+    "aspect_ratio": "3:4",
+    "prompt_text": "orc mechanic woman with red braid, brass goggles, patched leather coat, portrait, front view, consistent character facial expression study, clean portrait reference. Identity anchor: identity: same orc mechanic woman in every expression; face: green skin, small tusks, strong cheekbones; hair: single red braid; outfit: patched leather coat collar visible in portraits; accessories: brass goggles; must keep: same face, tusks, red braid, brass goggles; avoid: different character, missing tusks, missing braid. Guidance: neutral balanced stance; subject isolated with readable proportions; gentle rim light with clear facial detail; low-distraction background; prioritize repeatable character identity; focus on face, expression, hair, and upper costume identity. Palette: character reference; #f2efe8, #4b5563, #8a5a44, #c9b37e, #2f3a45; neutral reference colors with a few material accents; Keep identity, materials, and silhouette readable across the set. Layout: head and shoulders portrait, centered.",
+    "negative_prompt": "low quality, blurry, cropped subject, broken anatomy, unreadable text, extra limbs, distorted layout, inconsistent identity, cluttered background, different character, missing tusks, missing braid",
+    "character_bible": {
+      "identity": "same orc mechanic woman in every expression",
+      "face": "green skin, small tusks, strong cheekbones",
+      "hair": "single red braid",
+      "outfit": "patched leather coat collar visible in portraits",
+      "accessories": "brass goggles",
+      "must_keep": "same face, tusks, red braid, brass goggles",
+      "avoid": "different character, missing tusks, missing braid"
+    },
+    "style_description": {
+      "name": "consistent character facial expression study, clean portrait reference",
+      "source": "cli"
+    },
+    "bbox_layout": {
+      "name": "centered_portrait",
+      "aspect_ratio": "3:4",
+      "elements": [
+        {
+          "type": "obj",
+          "bbox": [
+            90,
+            260,
+            760,
+            740
+          ],
+          "desc": "head and shoulders portrait, centered"
+        }
+      ]
+    },
+    "color_palette": {
+      "name": "character_reference",
+      "colors": [
+        "#f2efe8",
+        "#4b5563",
+        "#8a5a44",
+        "#c9b37e",
+        "#2f3a45"
+      ],
+      "mood": "neutral reference colors with a few material accents",
+      "usage": "Keep identity, materials, and silhouette readable across the set.",
+      "source": "static_palette_catalog"
+    },
+    "ideogram_json": {
+      "prompt": "orc mechanic woman with red braid, brass goggles, patched leather coat, portrait, front view, consistent character facial expression study, clean portrait reference. Identity anchor: identity: same orc mechanic woman in every expression; face: green skin, small tusks, strong cheekbones; hair: single red braid; outfit: patched leather coat collar visible in portraits; accessories: brass goggles; must keep: same face, tusks, red braid, brass goggles; avoid: different character, missing tusks, missing braid. Guidance: neutral balanced stance; subject isolated with readable proportions; gentle rim light with clear facial detail; low-distraction background; prioritize repeatable character identity; focus on face, expression, hair, and upper costume identity. Palette: character reference; #f2efe8, #4b5563, #8a5a44, #c9b37e, #2f3a45; neutral reference colors with a few material accents; Keep identity, materials, and silhouette readable across the set. Layout: head and shoulders portrait, centered.",
+      "negative_prompt": "low quality, blurry, cropped subject, broken anatomy, unreadable text, extra limbs, distorted layout, inconsistent identity, cluttered background, different character, missing tusks, missing braid",
+      "aspect_ratio": "3:4",
+      "layout": {
+        "name": "centered_portrait",
+        "aspect_ratio": "3:4",
+        "elements": [
+          {
+            "type": "obj",
+            "bbox": [
+              90,
+              260,
+              760,
+              740
+            ],
+            "desc": "head and shoulders portrait, centered"
+          }
+        ]
+      },
+      "color_palette": {
+        "name": "character_reference",
+        "colors": [
+          "#f2efe8",
+          "#4b5563",
+          "#8a5a44",
+          "#c9b37e",
+          "#2f3a45"
+        ],
+        "mood": "neutral reference colors with a few material accents",
+        "usage": "Keep identity, materials, and silhouette readable across the set.",
+        "source": "static_palette_catalog"
+      },
+      "character_bible": {
+        "identity": "same orc mechanic woman in every expression",
+        "face": "green skin, small tusks, strong cheekbones",
+        "hair": "single red braid",
+        "outfit": "patched leather coat collar visible in portraits",
+        "accessories": "brass goggles",
+        "must_keep": "same face, tusks, red braid, brass goggles",
+        "avoid": "different character, missing tusks, missing braid"
+      },
+      "style": {
+        "name": "consistent character facial expression study, clean portrait reference",
+        "source": "cli"
+      },
+      "metadata": {
+        "id": "character_lora_expressions-0001",
+        "mode": "character_lora_expressions",
+        "shot_type": "portrait",
+        "angle": "front_view"
+      }
+    },
+    "metadata": {
+      "sequence_index": 0,
+      "bbox_template": "centered_portrait",
+      "planner": "ShotlistPlanner",
+      "color_palette_source": "ColorPaletteAssigner",
+      "prompt_variation": {
+        "pose": "neutral balanced stance",
+        "framing": "subject isolated with readable proportions",
+        "lighting": "gentle rim light with clear facial detail",
+        "background": "low-distraction background",
+        "detail": "prioritize repeatable character identity",
+        "shot_hint": "focus on face, expression, hair, and upper costume identity",
+        "source": "PromptVariationAssigner"
+      }
+    },
+    "extra": {}
+  },
+  {
+    "id": "character_lora_expressions-0002",
+    "subject": "orc mechanic woman with red braid, brass goggles, patched leather coat",
+    "mode": "character_lora_expressions",
+    "shot_type": "expression",
+    "angle": "varied_expressions",
+    "aspect_ratio": "1:1",
+    "prompt_text": "orc mechanic woman with red braid, brass goggles, patched leather coat, expression, varied expressions, consistent character facial expression study, clean portrait reference. Identity anchor: identity: same orc mechanic woman in every expression; face: green skin, small tusks, strong cheekbones; hair: single red braid; outfit: patched leather coat collar visible in portraits; accessories: brass goggles; must keep: same face, tusks, red braid, brass goggles; avoid: different character, missing tusks, missing braid. Guidance: relaxed natural posture; center-weighted composition; balanced front lighting; clean reference-sheet backdrop; preserve distinctive costume shapes and materials; show multiple clear expressions with consistent identity. Palette: character reference; #f2efe8, #4b5563, #8a5a44, #c9b37e, #2f3a45; neutral reference colors with a few material accents; Keep identity, materials, and silhouette readable across the set. Layout: expression panel one; expression panel two; expression panel three; expression panel four.",
+    "negative_prompt": "low quality, blurry, cropped subject, broken anatomy, unreadable text, extra limbs, distorted layout, inconsistent identity, cluttered background, different character, missing tusks, missing braid",
+    "character_bible": {
+      "identity": "same orc mechanic woman in every expression",
+      "face": "green skin, small tusks, strong cheekbones",
+      "hair": "single red braid",
+      "outfit": "patched leather coat collar visible in portraits",
+      "accessories": "brass goggles",
+      "must_keep": "same face, tusks, red braid, brass goggles",
+      "avoid": "different character, missing tusks, missing braid"
+    },
+    "style_description": {
+      "name": "consistent character facial expression study, clean portrait reference",
+      "source": "cli"
+    },
+    "bbox_layout": {
+      "name": "expression_grid",
+      "aspect_ratio": "1:1",
+      "elements": [
+        {
+          "type": "obj",
+          "bbox": [
+            80,
+            80,
+            430,
+            430
+          ],
+          "desc": "expression panel one"
+        },
+        {
+          "type": "obj",
+          "bbox": [
+            80,
+            570,
+            430,
+            920
+          ],
+          "desc": "expression panel two"
+        },
+        {
+          "type": "obj",
+          "bbox": [
+            570,
+            80,
+            920,
+            430
+          ],
+          "desc": "expression panel three"
+        },
+        {
+          "type": "obj",
+          "bbox": [
+            570,
+            570,
+            920,
+            920
+          ],
+          "desc": "expression panel four"
+        }
+      ]
+    },
+    "color_palette": {
+      "name": "character_reference",
+      "colors": [
+        "#f2efe8",
+        "#4b5563",
+        "#8a5a44",
+        "#c9b37e",
+        "#2f3a45"
+      ],
+      "mood": "neutral reference colors with a few material accents",
+      "usage": "Keep identity, materials, and silhouette readable across the set.",
+      "source": "static_palette_catalog"
+    },
+    "ideogram_json": {
+      "prompt": "orc mechanic woman with red braid, brass goggles, patched leather coat, expression, varied expressions, consistent character facial expression study, clean portrait reference. Identity anchor: identity: same orc mechanic woman in every expression; face: green skin, small tusks, strong cheekbones; hair: single red braid; outfit: patched leather coat collar visible in portraits; accessories: brass goggles; must keep: same face, tusks, red braid, brass goggles; avoid: different character, missing tusks, missing braid. Guidance: relaxed natural posture; center-weighted composition; balanced front lighting; clean reference-sheet backdrop; preserve distinctive costume shapes and materials; show multiple clear expressions with consistent identity. Palette: character reference; #f2efe8, #4b5563, #8a5a44, #c9b37e, #2f3a45; neutral reference colors with a few material accents; Keep identity, materials, and silhouette readable across the set. Layout: expression panel one; expression panel two; expression panel three; expression panel four.",
+      "negative_prompt": "low quality, blurry, cropped subject, broken anatomy, unreadable text, extra limbs, distorted layout, inconsistent identity, cluttered background, different character, missing tusks, missing braid",
+      "aspect_ratio": "1:1",
+      "layout": {
+        "name": "expression_grid",
+        "aspect_ratio": "1:1",
+        "elements": [
+          {
+            "type": "obj",
+            "bbox": [
+              80,
+              80,
+              430,
+              430
+            ],
+            "desc": "expression panel one"
+          },
+          {
+            "type": "obj",
+            "bbox": [
+              80,
+              570,
+              430,
+              920
+            ],
+            "desc": "expression panel two"
+          },
+          {
+            "type": "obj",
+            "bbox": [
+              570,
+              80,
+              920,
+              430
+            ],
+            "desc": "expression panel three"
+          },
+          {
+            "type": "obj",
+            "bbox": [
+              570,
+              570,
+              920,
+              920
+            ],
+            "desc": "expression panel four"
+          }
+        ]
+      },
+      "color_palette": {
+        "name": "character_reference",
+        "colors": [
+          "#f2efe8",
+          "#4b5563",
+          "#8a5a44",
+          "#c9b37e",
+          "#2f3a45"
+        ],
+        "mood": "neutral reference colors with a few material accents",
+        "usage": "Keep identity, materials, and silhouette readable across the set.",
+        "source": "static_palette_catalog"
+      },
+      "character_bible": {
+        "identity": "same orc mechanic woman in every expression",
+        "face": "green skin, small tusks, strong cheekbones",
+        "hair": "single red braid",
+        "outfit": "patched leather coat collar visible in portraits",
+        "accessories": "brass goggles",
+        "must_keep": "same face, tusks, red braid, brass goggles",
+        "avoid": "different character, missing tusks, missing braid"
+      },
+      "style": {
+        "name": "consistent character facial expression study, clean portrait reference",
+        "source": "cli"
+      },
+      "metadata": {
+        "id": "character_lora_expressions-0002",
+        "mode": "character_lora_expressions",
+        "shot_type": "expression",
+        "angle": "varied_expressions"
+      }
+    },
+    "metadata": {
+      "sequence_index": 1,
+      "bbox_template": "expression_grid",
+      "planner": "ShotlistPlanner",
+      "color_palette_source": "ColorPaletteAssigner",
+      "prompt_variation": {
+        "pose": "relaxed natural posture",
+        "framing": "center-weighted composition",
+        "lighting": "balanced front lighting",
+        "background": "clean reference-sheet backdrop",
+        "detail": "preserve distinctive costume shapes and materials",
+        "shot_hint": "show multiple clear expressions with consistent identity",
+        "source": "PromptVariationAssigner"
+      }
+    },
+    "extra": {}
+  },
+  {
+    "id": "character_lora_expressions-0003",
+    "subject": "orc mechanic woman with red braid, brass goggles, patched leather coat",
+    "mode": "character_lora_expressions",
+    "shot_type": "expression_smile",
+    "angle": "soft_smile",
+    "aspect_ratio": "3:4",
+    "prompt_text": "orc mechanic woman with red braid, brass goggles, patched leather coat, expression smile, soft smile, consistent character facial expression study, clean portrait reference. Identity anchor: identity: same orc mechanic woman in every expression; face: green skin, small tusks, strong cheekbones; hair: single red braid; outfit: patched leather coat collar visible in portraits; accessories: brass goggles; must keep: same face, tusks, red braid, brass goggles; avoid: different character, missing tusks, missing braid. Guidance: clear silhouette pose; uncluttered full subject visibility; low-contrast reference lighting; plain light gray background; emphasize face, silhouette, and key identifiers; show a natural smile while preserving the same face. Palette: character reference; #f2efe8, #4b5563, #8a5a44, #c9b37e, #2f3a45; neutral reference colors with a few material accents; Keep identity, materials, and silhouette readable across the set. Layout: head and shoulders portrait, centered.",
+    "negative_prompt": "low quality, blurry, cropped subject, broken anatomy, unreadable text, extra limbs, distorted layout, inconsistent identity, cluttered background, different character, missing tusks, missing braid",
+    "character_bible": {
+      "identity": "same orc mechanic woman in every expression",
+      "face": "green skin, small tusks, strong cheekbones",
+      "hair": "single red braid",
+      "outfit": "patched leather coat collar visible in portraits",
+      "accessories": "brass goggles",
+      "must_keep": "same face, tusks, red braid, brass goggles",
+      "avoid": "different character, missing tusks, missing braid"
+    },
+    "style_description": {
+      "name": "consistent character facial expression study, clean portrait reference",
+      "source": "cli"
+    },
+    "bbox_layout": {
+      "name": "centered_portrait",
+      "aspect_ratio": "3:4",
+      "elements": [
+        {
+          "type": "obj",
+          "bbox": [
+            90,
+            260,
+            760,
+            740
+          ],
+          "desc": "head and shoulders portrait, centered"
+        }
+      ]
+    },
+    "color_palette": {
+      "name": "character_reference",
+      "colors": [
+        "#f2efe8",
+        "#4b5563",
+        "#8a5a44",
+        "#c9b37e",
+        "#2f3a45"
+      ],
+      "mood": "neutral reference colors with a few material accents",
+      "usage": "Keep identity, materials, and silhouette readable across the set.",
+      "source": "static_palette_catalog"
+    },
+    "ideogram_json": {
+      "prompt": "orc mechanic woman with red braid, brass goggles, patched leather coat, expression smile, soft smile, consistent character facial expression study, clean portrait reference. Identity anchor: identity: same orc mechanic woman in every expression; face: green skin, small tusks, strong cheekbones; hair: single red braid; outfit: patched leather coat collar visible in portraits; accessories: brass goggles; must keep: same face, tusks, red braid, brass goggles; avoid: different character, missing tusks, missing braid. Guidance: clear silhouette pose; uncluttered full subject visibility; low-contrast reference lighting; plain light gray background; emphasize face, silhouette, and key identifiers; show a natural smile while preserving the same face. Palette: character reference; #f2efe8, #4b5563, #8a5a44, #c9b37e, #2f3a45; neutral reference colors with a few material accents; Keep identity, materials, and silhouette readable across the set. Layout: head and shoulders portrait, centered.",
+      "negative_prompt": "low quality, blurry, cropped subject, broken anatomy, unreadable text, extra limbs, distorted layout, inconsistent identity, cluttered background, different character, missing tusks, missing braid",
+      "aspect_ratio": "3:4",
+      "layout": {
+        "name": "centered_portrait",
+        "aspect_ratio": "3:4",
+        "elements": [
+          {
+            "type": "obj",
+            "bbox": [
+              90,
+              260,
+              760,
+              740
+            ],
+            "desc": "head and shoulders portrait, centered"
+          }
+        ]
+      },
+      "color_palette": {
+        "name": "character_reference",
+        "colors": [
+          "#f2efe8",
+          "#4b5563",
+          "#8a5a44",
+          "#c9b37e",
+          "#2f3a45"
+        ],
+        "mood": "neutral reference colors with a few material accents",
+        "usage": "Keep identity, materials, and silhouette readable across the set.",
+        "source": "static_palette_catalog"
+      },
+      "character_bible": {
+        "identity": "same orc mechanic woman in every expression",
+        "face": "green skin, small tusks, strong cheekbones",
+        "hair": "single red braid",
+        "outfit": "patched leather coat collar visible in portraits",
+        "accessories": "brass goggles",
+        "must_keep": "same face, tusks, red braid, brass goggles",
+        "avoid": "different character, missing tusks, missing braid"
+      },
+      "style": {
+        "name": "consistent character facial expression study, clean portrait reference",
+        "source": "cli"
+      },
+      "metadata": {
+        "id": "character_lora_expressions-0003",
+        "mode": "character_lora_expressions",
+        "shot_type": "expression_smile",
+        "angle": "soft_smile"
+      }
+    },
+    "metadata": {
+      "sequence_index": 2,
+      "bbox_template": "centered_portrait",
+      "planner": "ShotlistPlanner",
+      "color_palette_source": "ColorPaletteAssigner",
+      "prompt_variation": {
+        "pose": "clear silhouette pose",
+        "framing": "uncluttered full subject visibility",
+        "lighting": "low-contrast reference lighting",
+        "background": "plain light gray background",
+        "detail": "emphasize face, silhouette, and key identifiers",
+        "shot_hint": "show a natural smile while preserving the same face",
+        "source": "PromptVariationAssigner"
+      }
+    },
+    "extra": {}
+  }
+]

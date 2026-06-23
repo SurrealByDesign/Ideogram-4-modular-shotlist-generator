@@ -1,0 +1,17 @@
+{
+  "source_count": 15,
+  "copied_count": 1,
+  "filters": {
+    "qa_severity": "info"
+  },
+  "records": [
+    {
+      "source_index": 7,
+      "id": "expressions-character_lora_expressions-0002",
+      "pack": "expressions",
+      "mode": "character_lora_expressions",
+      "shot_type": "expression",
+      "angle": "varied_expressions"
+    }
+  ]
+}

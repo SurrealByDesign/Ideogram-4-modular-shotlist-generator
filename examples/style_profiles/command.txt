@@ -1,0 +1,2 @@
+python -m shotplanner build-character-lora --config examples/style_profiles/style_profile_config.json
+python -m shotplanner stats examples/style_profiles/generated/records.json

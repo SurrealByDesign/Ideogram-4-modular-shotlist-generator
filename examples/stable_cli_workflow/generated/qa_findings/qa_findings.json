@@ -1,0 +1,24 @@
+{
+  "total_records": 15,
+  "total_findings": 1,
+  "status": "review",
+  "severity_counts": {
+    "info": 1
+  },
+  "code_counts": {
+    "repeated_prompt_words": 1
+  },
+  "findings": [
+    {
+      "index": 7,
+      "id": "expressions-character_lora_expressions-0002",
+      "pack": "expressions",
+      "mode": "character_lora_expressions",
+      "shot_type": "expression",
+      "severity": "info",
+      "code": "repeated_prompt_words",
+      "message": "Prompt repeats words often: expression=7, portrait=6."
+    }
+  ],
+  "filters": {}
+}

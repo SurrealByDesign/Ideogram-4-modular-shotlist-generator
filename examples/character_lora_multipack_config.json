@@ -1,0 +1,34 @@
+{
+  "subject": "orc mechanic woman with red braid, brass goggles, patched leather coat",
+  "style_profile": "clean_reference",
+  "style_intensity": "standard",
+  "pack_style_profiles": {
+    "turnaround": "technical_sheet",
+    "costume_details": "technical_sheet",
+    "environment": "cinematic_realism"
+  },
+  "pack_style_intensity": {
+    "turnaround": "light",
+    "costume_details": "light",
+    "environment": "strong"
+  },
+  "character_bible": {
+    "identity": "same orc mechanic woman in every shot",
+    "face": "green skin, small tusks, strong cheekbones",
+    "hair": "single red braid",
+    "body": "sturdy athletic build",
+    "outfit": "patched leather coat, oil-stained work gloves",
+    "accessories": "brass goggles, tool belt",
+    "must_keep": "green skin, tusks, red braid, brass goggles",
+    "avoid": "different face, different age, missing goggles"
+  },
+  "packs": {
+    "core": 30,
+    "turnaround": 24,
+    "expressions": 20,
+    "costume_details": 20,
+    "action": 24,
+    "environment": 18
+  },
+  "out": "outputs/orc_mechanic_lora_plan"
+}

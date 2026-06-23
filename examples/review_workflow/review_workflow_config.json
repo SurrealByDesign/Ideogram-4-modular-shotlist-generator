@@ -1,0 +1,24 @@
+{
+  "subject": "clockwork ranger with bronze mask, green cloak, folding bow",
+  "style_profile": "clean_reference",
+  "style_intensity": "standard",
+  "character_bible": {
+    "identity": "same clockwork ranger in every shot",
+    "face": "bronze mask with narrow green eye slits",
+    "hair": "short dark hair under hood",
+    "body": "lean athletic build",
+    "outfit": "green cloak, brass shoulder plates, leather travel gear",
+    "accessories": "folding bow, gear-shaped compass",
+    "must_keep": "bronze mask, green cloak, folding bow, gear compass",
+    "avoid": "missing mask, missing bow, red cloak"
+  },
+  "packs": {
+    "core": 4,
+    "turnaround": 2,
+    "expressions": 2,
+    "costume_details": 2,
+    "action": 2,
+    "environment": 2
+  },
+  "out": "examples/review_workflow/generated"
+}

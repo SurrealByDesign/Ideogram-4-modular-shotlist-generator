@@ -1,0 +1,23 @@
+{
+  "subject": "clockwork ranger with copper mask, green cloak, brass compass",
+  "character_bible": {
+    "identity": "same clockwork ranger in every shot",
+    "face": "copper mask with narrow glass lenses",
+    "hair": "dark hair tucked under hood",
+    "outfit": "green travel cloak, leather chest harness, brass compass",
+    "accessories": "brass compass, small map case",
+    "must_keep": "copper mask, green cloak, brass compass",
+    "avoid": "different mask, missing compass, modern clothing"
+  },
+  "style_profile": "clean_reference",
+  "style_intensity": "standard",
+  "packs": {
+    "core": 3,
+    "turnaround": 3,
+    "expressions": 3,
+    "costume_details": 2,
+    "action": 2,
+    "environment": 2
+  },
+  "out": "examples/stable_cli_workflow/generated"
+}

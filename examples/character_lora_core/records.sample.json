@@ -1,0 +1,371 @@
+[
+  {
+    "id": "character_lora_core-0001",
+    "subject": "orc mechanic woman with red braid, brass goggles, patched leather coat",
+    "mode": "character_lora_core",
+    "shot_type": "portrait",
+    "angle": "front_view",
+    "aspect_ratio": "3:4",
+    "prompt_text": "orc mechanic woman with red braid, brass goggles, patched leather coat, portrait, front view, clean core character LoRA reference, consistent identity, neutral readable views. Identity anchor: identity: same orc mechanic woman in every shot; face: green skin, small tusks, strong cheekbones; hair: single red braid; body: sturdy athletic build; outfit: patched leather coat, oil-stained work gloves; accessories: brass goggles, tool belt; must keep: green skin, tusks, red braid, brass goggles; avoid: different face, different age, missing goggles. Guidance: neutral balanced stance; subject isolated with readable proportions; gentle rim light with clear facial detail; low-distraction background; prioritize repeatable character identity; focus on face, expression, hair, and upper costume identity. Palette: character reference; #f2efe8, #4b5563, #8a5a44, #c9b37e, #2f3a45; neutral reference colors with a few material accents; Keep identity, materials, and silhouette readable across the set. Layout: head and shoulders portrait, centered.",
+    "negative_prompt": "low quality, blurry, cropped subject, broken anatomy, unreadable text, extra limbs, distorted layout, inconsistent identity, cluttered background, different face, different age, missing goggles",
+    "character_bible": {
+      "identity": "same orc mechanic woman in every shot",
+      "face": "green skin, small tusks, strong cheekbones",
+      "hair": "single red braid",
+      "body": "sturdy athletic build",
+      "outfit": "patched leather coat, oil-stained work gloves",
+      "accessories": "brass goggles, tool belt",
+      "must_keep": "green skin, tusks, red braid, brass goggles",
+      "avoid": "different face, different age, missing goggles"
+    },
+    "style_description": {
+      "name": "clean core character LoRA reference, consistent identity, neutral readable views",
+      "source": "cli"
+    },
+    "bbox_layout": {
+      "name": "centered_portrait",
+      "aspect_ratio": "3:4",
+      "elements": [
+        {
+          "type": "obj",
+          "bbox": [
+            90,
+            260,
+            760,
+            740
+          ],
+          "desc": "head and shoulders portrait, centered"
+        }
+      ]
+    },
+    "color_palette": {
+      "name": "character_reference",
+      "colors": [
+        "#f2efe8",
+        "#4b5563",
+        "#8a5a44",
+        "#c9b37e",
+        "#2f3a45"
+      ],
+      "mood": "neutral reference colors with a few material accents",
+      "usage": "Keep identity, materials, and silhouette readable across the set.",
+      "source": "static_palette_catalog"
+    },
+    "ideogram_json": {
+      "prompt": "orc mechanic woman with red braid, brass goggles, patched leather coat, portrait, front view, clean core character LoRA reference, consistent identity, neutral readable views. Identity anchor: identity: same orc mechanic woman in every shot; face: green skin, small tusks, strong cheekbones; hair: single red braid; body: sturdy athletic build; outfit: patched leather coat, oil-stained work gloves; accessories: brass goggles, tool belt; must keep: green skin, tusks, red braid, brass goggles; avoid: different face, different age, missing goggles. Guidance: neutral balanced stance; subject isolated with readable proportions; gentle rim light with clear facial detail; low-distraction background; prioritize repeatable character identity; focus on face, expression, hair, and upper costume identity. Palette: character reference; #f2efe8, #4b5563, #8a5a44, #c9b37e, #2f3a45; neutral reference colors with a few material accents; Keep identity, materials, and silhouette readable across the set. Layout: head and shoulders portrait, centered.",
+      "negative_prompt": "low quality, blurry, cropped subject, broken anatomy, unreadable text, extra limbs, distorted layout, inconsistent identity, cluttered background, different face, different age, missing goggles",
+      "aspect_ratio": "3:4",
+      "layout": {
+        "name": "centered_portrait",
+        "aspect_ratio": "3:4",
+        "elements": [
+          {
+            "type": "obj",
+            "bbox": [
+              90,
+              260,
+              760,
+              740
+            ],
+            "desc": "head and shoulders portrait, centered"
+          }
+        ]
+      },
+      "color_palette": {
+        "name": "character_reference",
+        "colors": [
+          "#f2efe8",
+          "#4b5563",
+          "#8a5a44",
+          "#c9b37e",
+          "#2f3a45"
+        ],
+        "mood": "neutral reference colors with a few material accents",
+        "usage": "Keep identity, materials, and silhouette readable across the set.",
+        "source": "static_palette_catalog"
+      },
+      "character_bible": {
+        "identity": "same orc mechanic woman in every shot",
+        "face": "green skin, small tusks, strong cheekbones",
+        "hair": "single red braid",
+        "body": "sturdy athletic build",
+        "outfit": "patched leather coat, oil-stained work gloves",
+        "accessories": "brass goggles, tool belt",
+        "must_keep": "green skin, tusks, red braid, brass goggles",
+        "avoid": "different face, different age, missing goggles"
+      },
+      "style": {
+        "name": "clean core character LoRA reference, consistent identity, neutral readable views",
+        "source": "cli"
+      },
+      "metadata": {
+        "id": "character_lora_core-0001",
+        "mode": "character_lora_core",
+        "shot_type": "portrait",
+        "angle": "front_view"
+      }
+    },
+    "metadata": {
+      "sequence_index": 0,
+      "bbox_template": "centered_portrait",
+      "planner": "ShotlistPlanner",
+      "color_palette_source": "ColorPaletteAssigner",
+      "prompt_variation": {
+        "pose": "neutral balanced stance",
+        "framing": "subject isolated with readable proportions",
+        "lighting": "gentle rim light with clear facial detail",
+        "background": "low-distraction background",
+        "detail": "prioritize repeatable character identity",
+        "shot_hint": "focus on face, expression, hair, and upper costume identity",
+        "source": "PromptVariationAssigner"
+      }
+    },
+    "extra": {}
+  },
+  {
+    "id": "character_lora_core-0002",
+    "subject": "orc mechanic woman with red braid, brass goggles, patched leather coat",
+    "mode": "character_lora_core",
+    "shot_type": "full_body",
+    "angle": "front_view",
+    "aspect_ratio": "2:3",
+    "prompt_text": "orc mechanic woman with red braid, brass goggles, patched leather coat, full body, front view, clean core character LoRA reference, consistent identity, neutral readable views. Identity anchor: identity: same orc mechanic woman in every shot; face: green skin, small tusks, strong cheekbones; hair: single red braid; body: sturdy athletic build; outfit: patched leather coat, oil-stained work gloves; accessories: brass goggles, tool belt; must keep: green skin, tusks, red braid, brass goggles; avoid: different face, different age, missing goggles. Guidance: relaxed natural posture; center-weighted composition; balanced front lighting; clean reference-sheet backdrop; preserve distinctive costume shapes and materials; show the entire figure from head to toe without cropping. Palette: character reference; #f2efe8, #4b5563, #8a5a44, #c9b37e, #2f3a45; neutral reference colors with a few material accents; Keep identity, materials, and silhouette readable across the set. Layout: main character, full body, centered.",
+    "negative_prompt": "low quality, blurry, cropped subject, broken anatomy, unreadable text, extra limbs, distorted layout, inconsistent identity, cluttered background, different face, different age, missing goggles",
+    "character_bible": {
+      "identity": "same orc mechanic woman in every shot",
+      "face": "green skin, small tusks, strong cheekbones",
+      "hair": "single red braid",
+      "body": "sturdy athletic build",
+      "outfit": "patched leather coat, oil-stained work gloves",
+      "accessories": "brass goggles, tool belt",
+      "must_keep": "green skin, tusks, red braid, brass goggles",
+      "avoid": "different face, different age, missing goggles"
+    },
+    "style_description": {
+      "name": "clean core character LoRA reference, consistent identity, neutral readable views",
+      "source": "cli"
+    },
+    "bbox_layout": {
+      "name": "centered_full_body",
+      "aspect_ratio": "2:3",
+      "elements": [
+        {
+          "type": "obj",
+          "bbox": [
+            80,
+            320,
+            940,
+            680
+          ],
+          "desc": "main character, full body, centered"
+        }
+      ]
+    },
+    "color_palette": {
+      "name": "character_reference",
+      "colors": [
+        "#f2efe8",
+        "#4b5563",
+        "#8a5a44",
+        "#c9b37e",
+        "#2f3a45"
+      ],
+      "mood": "neutral reference colors with a few material accents",
+      "usage": "Keep identity, materials, and silhouette readable across the set.",
+      "source": "static_palette_catalog"
+    },
+    "ideogram_json": {
+      "prompt": "orc mechanic woman with red braid, brass goggles, patched leather coat, full body, front view, clean core character LoRA reference, consistent identity, neutral readable views. Identity anchor: identity: same orc mechanic woman in every shot; face: green skin, small tusks, strong cheekbones; hair: single red braid; body: sturdy athletic build; outfit: patched leather coat, oil-stained work gloves; accessories: brass goggles, tool belt; must keep: green skin, tusks, red braid, brass goggles; avoid: different face, different age, missing goggles. Guidance: relaxed natural posture; center-weighted composition; balanced front lighting; clean reference-sheet backdrop; preserve distinctive costume shapes and materials; show the entire figure from head to toe without cropping. Palette: character reference; #f2efe8, #4b5563, #8a5a44, #c9b37e, #2f3a45; neutral reference colors with a few material accents; Keep identity, materials, and silhouette readable across the set. Layout: main character, full body, centered.",
+      "negative_prompt": "low quality, blurry, cropped subject, broken anatomy, unreadable text, extra limbs, distorted layout, inconsistent identity, cluttered background, different face, different age, missing goggles",
+      "aspect_ratio": "2:3",
+      "layout": {
+        "name": "centered_full_body",
+        "aspect_ratio": "2:3",
+        "elements": [
+          {
+            "type": "obj",
+            "bbox": [
+              80,
+              320,
+              940,
+              680
+            ],
+            "desc": "main character, full body, centered"
+          }
+        ]
+      },
+      "color_palette": {
+        "name": "character_reference",
+        "colors": [
+          "#f2efe8",
+          "#4b5563",
+          "#8a5a44",
+          "#c9b37e",
+          "#2f3a45"
+        ],
+        "mood": "neutral reference colors with a few material accents",
+        "usage": "Keep identity, materials, and silhouette readable across the set.",
+        "source": "static_palette_catalog"
+      },
+      "character_bible": {
+        "identity": "same orc mechanic woman in every shot",
+        "face": "green skin, small tusks, strong cheekbones",
+        "hair": "single red braid",
+        "body": "sturdy athletic build",
+        "outfit": "patched leather coat, oil-stained work gloves",
+        "accessories": "brass goggles, tool belt",
+        "must_keep": "green skin, tusks, red braid, brass goggles",
+        "avoid": "different face, different age, missing goggles"
+      },
+      "style": {
+        "name": "clean core character LoRA reference, consistent identity, neutral readable views",
+        "source": "cli"
+      },
+      "metadata": {
+        "id": "character_lora_core-0002",
+        "mode": "character_lora_core",
+        "shot_type": "full_body",
+        "angle": "front_view"
+      }
+    },
+    "metadata": {
+      "sequence_index": 1,
+      "bbox_template": "centered_full_body",
+      "planner": "ShotlistPlanner",
+      "color_palette_source": "ColorPaletteAssigner",
+      "prompt_variation": {
+        "pose": "relaxed natural posture",
+        "framing": "center-weighted composition",
+        "lighting": "balanced front lighting",
+        "background": "clean reference-sheet backdrop",
+        "detail": "preserve distinctive costume shapes and materials",
+        "shot_hint": "show the entire figure from head to toe without cropping",
+        "source": "PromptVariationAssigner"
+      }
+    },
+    "extra": {}
+  },
+  {
+    "id": "character_lora_core-0003",
+    "subject": "orc mechanic woman with red braid, brass goggles, patched leather coat",
+    "mode": "character_lora_core",
+    "shot_type": "three_quarter",
+    "angle": "three_quarter_front",
+    "aspect_ratio": "2:3",
+    "prompt_text": "orc mechanic woman with red braid, brass goggles, patched leather coat, three quarter, three quarter front, clean core character LoRA reference, consistent identity, neutral readable views. Identity anchor: identity: same orc mechanic woman in every shot; face: green skin, small tusks, strong cheekbones; hair: single red braid; body: sturdy athletic build; outfit: patched leather coat, oil-stained work gloves; accessories: brass goggles, tool belt; must keep: green skin, tusks, red braid, brass goggles; avoid: different face, different age, missing goggles. Guidance: clear silhouette pose; uncluttered full subject visibility; low-contrast reference lighting; plain light gray background; emphasize face, silhouette, and key identifiers; use a readable three-quarter view with visible depth. Palette: character reference; #f2efe8, #4b5563, #8a5a44, #c9b37e, #2f3a45; neutral reference colors with a few material accents; Keep identity, materials, and silhouette readable across the set. Layout: main character, full body, centered.",
+    "negative_prompt": "low quality, blurry, cropped subject, broken anatomy, unreadable text, extra limbs, distorted layout, inconsistent identity, cluttered background, different face, different age, missing goggles",
+    "character_bible": {
+      "identity": "same orc mechanic woman in every shot",
+      "face": "green skin, small tusks, strong cheekbones",
+      "hair": "single red braid",
+      "body": "sturdy athletic build",
+      "outfit": "patched leather coat, oil-stained work gloves",
+      "accessories": "brass goggles, tool belt",
+      "must_keep": "green skin, tusks, red braid, brass goggles",
+      "avoid": "different face, different age, missing goggles"
+    },
+    "style_description": {
+      "name": "clean core character LoRA reference, consistent identity, neutral readable views",
+      "source": "cli"
+    },
+    "bbox_layout": {
+      "name": "centered_full_body",
+      "aspect_ratio": "2:3",
+      "elements": [
+        {
+          "type": "obj",
+          "bbox": [
+            80,
+            320,
+            940,
+            680
+          ],
+          "desc": "main character, full body, centered"
+        }
+      ]
+    },
+    "color_palette": {
+      "name": "character_reference",
+      "colors": [
+        "#f2efe8",
+        "#4b5563",
+        "#8a5a44",
+        "#c9b37e",
+        "#2f3a45"
+      ],
+      "mood": "neutral reference colors with a few material accents",
+      "usage": "Keep identity, materials, and silhouette readable across the set.",
+      "source": "static_palette_catalog"
+    },
+    "ideogram_json": {
+      "prompt": "orc mechanic woman with red braid, brass goggles, patched leather coat, three quarter, three quarter front, clean core character LoRA reference, consistent identity, neutral readable views. Identity anchor: identity: same orc mechanic woman in every shot; face: green skin, small tusks, strong cheekbones; hair: single red braid; body: sturdy athletic build; outfit: patched leather coat, oil-stained work gloves; accessories: brass goggles, tool belt; must keep: green skin, tusks, red braid, brass goggles; avoid: different face, different age, missing goggles. Guidance: clear silhouette pose; uncluttered full subject visibility; low-contrast reference lighting; plain light gray background; emphasize face, silhouette, and key identifiers; use a readable three-quarter view with visible depth. Palette: character reference; #f2efe8, #4b5563, #8a5a44, #c9b37e, #2f3a45; neutral reference colors with a few material accents; Keep identity, materials, and silhouette readable across the set. Layout: main character, full body, centered.",
+      "negative_prompt": "low quality, blurry, cropped subject, broken anatomy, unreadable text, extra limbs, distorted layout, inconsistent identity, cluttered background, different face, different age, missing goggles",
+      "aspect_ratio": "2:3",
+      "layout": {
+        "name": "centered_full_body",
+        "aspect_ratio": "2:3",
+        "elements": [
+          {
+            "type": "obj",
+            "bbox": [
+              80,
+              320,
+              940,
+              680
+            ],
+            "desc": "main character, full body, centered"
+          }
+        ]
+      },
+      "color_palette": {
+        "name": "character_reference",
+        "colors": [
+          "#f2efe8",
+          "#4b5563",
+          "#8a5a44",
+          "#c9b37e",
+          "#2f3a45"
+        ],
+        "mood": "neutral reference colors with a few material accents",
+        "usage": "Keep identity, materials, and silhouette readable across the set.",
+        "source": "static_palette_catalog"
+      },
+      "character_bible": {
+        "identity": "same orc mechanic woman in every shot",
+        "face": "green skin, small tusks, strong cheekbones",
+        "hair": "single red braid",
+        "body": "sturdy athletic build",
+        "outfit": "patched leather coat, oil-stained work gloves",
+        "accessories": "brass goggles, tool belt",
+        "must_keep": "green skin, tusks, red braid, brass goggles",
+        "avoid": "different face, different age, missing goggles"
+      },
+      "style": {
+        "name": "clean core character LoRA reference, consistent identity, neutral readable views",
+        "source": "cli"
+      },
+      "metadata": {
+        "id": "character_lora_core-0003",
+        "mode": "character_lora_core",
+        "shot_type": "three_quarter",
+        "angle": "three_quarter_front"
+      }
+    },
+    "metadata": {
+      "sequence_index": 2,
+      "bbox_template": "centered_full_body",
+      "planner": "ShotlistPlanner",
+      "color_palette_source": "ColorPaletteAssigner",
+      "prompt_variation": {
+        "pose": "clear silhouette pose",
+        "framing": "uncluttered full subject visibility",
+        "lighting": "low-contrast reference lighting",
+        "background": "plain light gray background",
+        "detail": "emphasize face, silhouette, and key identifiers",
+        "shot_hint": "use a readable three-quarter view with visible depth",
+        "source": "PromptVariationAssigner"
+      }
+    },
+    "extra": {}
+  }
+]

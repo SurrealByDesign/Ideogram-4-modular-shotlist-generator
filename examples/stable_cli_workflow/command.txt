@@ -1,0 +1,10 @@
+python -m shotplanner build-character-lora --config examples/stable_cli_workflow/stable_cli_workflow_config.json
+python -m shotplanner inspect examples/stable_cli_workflow/generated/records.json
+python -m shotplanner stats examples/stable_cli_workflow/generated/records.json
+python -m shotplanner validate examples/stable_cli_workflow/generated/records.json
+python -m shotplanner qa examples/stable_cli_workflow/generated/records.json
+python -m shotplanner export-qa examples/stable_cli_workflow/generated/records.json --out examples/stable_cli_workflow/generated/qa_findings
+python -m shotplanner revision-summary examples/stable_cli_workflow/generated/records.json
+python -m shotplanner export-revisions examples/stable_cli_workflow/generated/records.json --out examples/stable_cli_workflow/generated/revision_worklist
+python -m shotplanner copy-records examples/stable_cli_workflow/generated/records.json --out examples/stable_cli_workflow/generated/revision_records --qa-severity info
+python -m shotplanner export-prompts examples/stable_cli_workflow/generated/records.json --out examples/stable_cli_workflow/generated/prompt_export --include-negative

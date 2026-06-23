@@ -1,0 +1,6 @@
+python -m shotplanner build ^
+  --preset product_sheet ^
+  --subject "brass clockwork resin miniature kit with removable wings" ^
+  --style "clean product concept sheet, studio lighting, readable materials" ^
+  --count 4 ^
+  --out examples/product_sheet/generated

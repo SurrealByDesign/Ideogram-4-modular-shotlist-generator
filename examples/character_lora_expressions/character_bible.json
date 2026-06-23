@@ -1,0 +1,9 @@
+{
+  "identity": "same orc mechanic woman in every expression",
+  "face": "green skin, small tusks, strong cheekbones",
+  "hair": "single red braid",
+  "outfit": "patched leather coat collar visible in portraits",
+  "accessories": "brass goggles",
+  "must_keep": "same face, tusks, red braid, brass goggles",
+  "avoid": "different character, missing tusks, missing braid"
+}

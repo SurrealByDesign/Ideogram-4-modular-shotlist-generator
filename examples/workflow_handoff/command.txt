@@ -1,0 +1,2 @@
+python -m shotplanner export-prompts examples/stable_cli_workflow/generated/records.json --out outputs/workflow_prompt_export --include-negative
+python -m shotplanner export-prompts examples/stable_cli_workflow/generated/records.json --out outputs/workflow_expression_prompt_export --pack expressions --include-negative

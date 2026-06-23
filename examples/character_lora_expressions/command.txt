@@ -1,0 +1,12 @@
+python -m shotplanner build ^
+  --preset character_lora_expressions ^
+  --subject "orc mechanic woman with red braid, brass goggles, patched leather coat" ^
+  --identity "same orc mechanic woman in every expression" ^
+  --face "green skin, small tusks, strong cheekbones" ^
+  --hair "single red braid" ^
+  --outfit "patched leather coat collar visible in portraits" ^
+  --accessories "brass goggles" ^
+  --must-keep "same face, tusks, red braid, brass goggles" ^
+  --avoid "different character, missing tusks, missing braid" ^
+  --count 7 ^
+  --out examples/character_lora_expressions/generated
